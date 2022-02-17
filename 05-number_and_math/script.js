@@ -28,7 +28,7 @@ Number.parseInt('100 Reais', 10); // 100
 
 // N.TOFIXED(DECIMAIS)
 // Arredonda o número com base no total de casas decimais do argumento.
-const preco = 2.99;
+// const preco = 2.99;
 preco.toFixed(); // 3
 
 const carro = 1000.455;
@@ -40,13 +40,13 @@ preco2.toFixed() // 1499
 
 // N.TOSTRING(RADIX)
 // Transforma o número em uma string com base no Radix. Use o 10 para o sistema decimal.
-const preco = 2.99;
+// const preco = 2.99;
 preco.toString(10); // '2.99'
 
 
 // N.TOLOCALESTRING(LANG, OPTIONS);
 // Formata o número de acordo com a língua e opções passadas.
-const preco = 59.49;
+// const preco = 59.49;
 preco.toLocaleString('en-US', {style: 'currency', currency: 'USD'}); // $59.49
 preco.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}); // R$ 59,49
 
@@ -81,4 +81,4 @@ Math.floor(Math.random() * 500);  // entre 0 e 500
 
 // Número random entre 72 e 32
 Math.floor(Math.random() * (72 - 32 + 1)) + 32; 
-Math.floor(Math.random() * (max - min + 1)) + min;
+// Math.floor(Math.random() * (max - min + 1)) + min;
